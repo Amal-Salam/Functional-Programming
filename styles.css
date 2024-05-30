@@ -1,0 +1,12 @@
+#container {
+    display: grid;
+    grid-template-columns: 50px repeat(10, 200px);
+    grid-template-rows: repeat(11, 30px);
+}
+
+.label {
+    background:linear-gradient(#2193b0 , #6dd5ed);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
